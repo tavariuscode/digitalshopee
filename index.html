@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Digital Shopee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                 <img class="logo" src="/imagens/logo-digital.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                Digital Shopee
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="bg-light">
+        <div class="container">
+            
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between gap-5">
+                <div class="text-center text-lg-start">
+                    <h1 class="display-4 fw-bold text-dark mb-3">Até 60% OFF! A verdadeira Black Friday começou na Digital Shopee!</h1>
+                    <p class="lead text-muted mb-4">O design eficiente da Nike agora ao seu alcance. Escolha o seu tênis favorito na loja online da Digital Shopee e nós entregamos com rapidez e total segurança na sua casa.</p>
+                    <a href="#projetos" class="btn btn-outline-danger btn-lg px-4 me-md-2">clique aqui e confira as ofertas!</a>
+                </div>
+                <
+                <div class="flex-shrink-0">
+                    <img src="/imagens/logo-dshopee-small.png" alt="Avatar do Desenvolvedor" class="img-fluid rounded-circle border border-5 border-white shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projetos" class="bg-white">
+        <div class="container">
+            
+            <h2 class="text-center fw-bold mb-5">Nossos Produtos</h2>
+            
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/imagens/tenis-nike-amarelo.jpeg" class="card-img-top" alt="Capa Projeto 1">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Casual Nike Jacob Mark</h5>
+                            <p class="card-text text-muted flex-grow-1">A elegância do estilo casual com a agilidade que os seus pés merecem. O Nike Jacob Mark traz a inovadora Tecnologia Bootstrap, garantindo pisadas macias, flexíveis e eficientes o dia todo. </p>
+                            <a href="#" class="btn btn-outline-warning mt-3">Receber em casa</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/imagens/tenis-preto-nike.jpeg" class="card-img-top" alt="Capa Projeto 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Nike Berners Lee</h5>
+                            <p class="card-text text-muted flex-grow-1">Compre o seu Berners Lee online de forma rápida e segura pelo celular. Tecnologia nos seus pés e entrega direta na sua casa pela Digital Shopee.</p>
+                            <a href="#" class="btn btn-outline-dark mt-3">Comprar Agora</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/imagens/chuteira-nike-verde.jpeg" class="card-img-top" alt="Capa Projeto 3">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Nike Eniac Jobs </h5>
+                            <p class="card-text text-muted flex-grow-1">Com encaixe anatômico e amortecimento ideal, a Eniac Jobs é genial!</p>
+                            <a href="#" class="btn btn-outline-success mt-3">Garantir a minha chuteira</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contato" class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <h2 class="text-center fw-bold mb-4">Entre em Contato</h2>
+                    <p class="text-center text-muted mb-5">Para revenda, Preencha o formulário abaixo para iniciarmos uma conversa.</p>
+                    
+                    
+                    <form class="bg-white p-4 p-md-5 rounded shadow-sm">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-semibold">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-semibold">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="mensagem" class="form-label fw-semibold">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" placeholder="Como posso ajudar você?" required></textarea>
+                        </div>
+                        
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-danger btn-lg shadow-sm">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <small>&copy; 2026 Digital Shopee. Todos os direitos reservados</small>
+
+        </div>
+    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
